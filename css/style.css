@@ -16,7 +16,20 @@
   background-color: #1ABC9C;
 }
 .portfolio {
+  height: 400px;
   background-color: white;
+}
+.about {
+  height: 400px;
+  background-color: #1ABC9C;
+}
+.contact_me {
+  height: 600px;
+  background-color: white;
+}
+footer {
+  height: 300px;
+  background-color: #2C3E50;
 }
 [class*="col-"] {
   background-color: lightblue;
