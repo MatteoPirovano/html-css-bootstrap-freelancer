@@ -2,6 +2,7 @@
 /* col-md-offset-* */
 /* #2C3E50 */
 /* #1ABC9C */
+/* #2C3E50 */
 
 .header_top {
   height: 100px;
@@ -24,10 +25,23 @@
   background-color: white;
 }
 footer {
-  height: 300px;
   background-color: #2C3E50;
 }
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+footer .container-fluid{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  background-color: #1A252F;
+}
 
+.row [class*="col-lg-10"] {
+  background-color: lightgrey;
+}
 [class*="col-"] {
   background-color: lightblue;
   border: 1px solid black;
