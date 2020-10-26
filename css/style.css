@@ -1,0 +1,25 @@
+/* .col-xs-	.col-sm-	.col-md-	.col-lg- */
+/* col-md-offset-* */
+/* #2C3E50 */
+/* #1ABC9C */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 100px;
+  background-color: #2C3E50;
+}
+.header_bottom {
+  height: 400px;
+  background-color: #1ABC9C;
+}
+.portfolio {
+  background-color: white;
+}
+[class*="col-"] {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 80px;
+}
