@@ -2,11 +2,7 @@
 /* col-md-offset-* */
 /* #2C3E50 */
 /* #1ABC9C */
-/* *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+
 .header_top {
   height: 100px;
   background-color: #2C3E50;
@@ -31,6 +27,7 @@ footer {
   height: 300px;
   background-color: #2C3E50;
 }
+
 [class*="col-"] {
   background-color: lightblue;
   border: 1px solid black;
