@@ -1,15 +1,21 @@
-/* .col-xs-	.col-sm-	.col-md-	.col-lg- */
-/* col-md-offset-* */
-/* #2C3E50 */
-/* #1ABC9C */
-/* #2C3E50 */
-
+body {
+  color: white;
+}
+img {
+  height: 250px;
+}
 .header_top {
-  height: 100px;
+  height: 100%;
   background-color: #2C3E50;
 }
+.header_top h3 {
+  line-height: 80px;
+}
+.list li{
+  line-height: 80px;
+}
 .header_bottom {
-  height: 400px;
+  padding: 80px;
   background-color: #1ABC9C;
 }
 .portfolio {
@@ -36,11 +42,11 @@ footer .container-fluid{
   color: white;
   background-color: #1A252F;
 }
-.row [class*="col-lg-10"] {
+/* .row [class*="col-lg-10"] {
   background-color: lightgrey;
 }
 [class*="col-"] {
   background-color: lightblue;
   border: 1px solid black;
-  height: 80px;
-}
+  min-height: 80px;
+} */
